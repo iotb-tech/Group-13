@@ -1,11 +1,5 @@
 const BASE_URL = "https://api.jikan.moe/v4/anime";
 
-/**
- * Fetch anime from Jikan API
- *
- * @param {string} query
- * @returns {Promise<Array>}
- */
 async function fetchAnime(query) {
 
     try {

@@ -1,9 +1,5 @@
-// Favourite section
 const favouriteContainer =
 document.getElementById("favouriteContainer");
- /**
- * @param {Object} anime
- */
 function saveFavourite(anime) {
     const favourite = {
         mal_id: anime.mal_id,
