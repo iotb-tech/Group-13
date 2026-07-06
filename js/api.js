@@ -4,7 +4,7 @@ async function fetchAnime(query) {
 
     try {
         const url =
-            ${BASE_URL}?q=${encodeURIComponent(query)}&limit=12;
+            `${BASE_URL}?q=${encodeURIComponent(query)}&limit=12`;
         const response = await fetch(url);
         if (!response.ok) {
             throw new Error("Unable to fetch anime.");
