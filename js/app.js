@@ -1,30 +1,30 @@
-async function loadDefaultAnime() {
+// async function loadDefaultAnime() {
 
-    try {
+//     try {
 
-        const animeList = await fetchAnime("Naruto");
+//         const animeList = await fetchAnime("Naruto");
 
-        displayAnime(animeList);
+//         displayAnime(animeList);
 
-    }
+//     }
 
-    catch (error) {
+//     catch (error) {
 
-        console.error(error);
+//         console.error(error);
 
-    }
+//     }
 
-}
+// }
 
-async function initializeApp() {
+// async function initializeApp() {
 
-    console.log("Anime Explorer Started");
+//     console.log("Anime Explorer Started");
 
-    displayFavourites();
+//     displayFavourites();
 
 
-    await loadDefaultAnime();
+//     await loadDefaultAnime();
 
-}
+// }
 
-initializeApp();
+// initializeApp();
